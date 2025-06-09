@@ -1,6 +1,11 @@
+#this code calculates the value in your array according to percentile value you provide
 import numpy as np
 import re
-data = np.array([2, 6, 4, 10, 8, 14, 12, 18, 16, 20])
+data = input("Enter the numbers (separted by space): ")
+data = data.split()
+data = [float(x) for x in data]
+data = np.array(data)
+#data = np.array([2, 6, 4, 10, 8, 14, 12, 18, 16, 20])
 #data will be sorted using nump sort
 data = np.sort(data)
 percentile_value = float(input("Enter the percentile value: ")) #percentile value
