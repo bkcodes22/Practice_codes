@@ -26,26 +26,3 @@ def z_score(data, mean, sd, z):
     return z
 b = z_score(data, mean, sd, z)
 print(f"z-score normalized data: {b}")
-
-    
-
-    
-
-
-
-
-
-
-
-
-    
-
-
-
-
-
-
-
-
-        
-
